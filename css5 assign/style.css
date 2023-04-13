@@ -1,0 +1,175 @@
+body {
+    background-color:yellow;
+}
+.head {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.box {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* height: 160px; */
+}
+.num {
+    padding-top: 80px;
+}
+.row1 {
+    width: 100px;
+    height: 90px;
+    background-color:rgb(5, 107, 107);
+    border: 2px solid honeydew;
+    margin: 20px;
+    animation-name: sample;
+    animation-duration: 4s;
+    animation-timing-function: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes sample{
+    0% {
+        transform: skew(-30deg);
+    }
+    100% {
+        transform: skew(30deg);
+    }
+}
+
+.row2 {
+    width: 100px;
+    height: 90px;
+    background-color:firebrick;
+    border: 2px solid honeydew;
+    margin: 20px;
+    animation-name: sample2;
+    animation-duration: 3s;
+    animation-timing-function: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes sample2{
+    0% {
+        transform: skewY(
+    -15deg);
+    }
+    100% {
+        transform: skewY(
+    15deg);
+    }
+}
+/* .fourth {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+.row3 {
+    width: 100px;
+    height: 90px;
+    background-color:rgb(93, 51, 110);
+    border: 2px solid honeydew;
+    margin: 20px;
+    animation-name: sample3;
+    animation-duration: 2s;
+    animation-timing-function: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:normal ;
+}
+@keyframes sample3{
+    0% {
+        transform: rotate(
+    -180deg);
+    }
+    100% {
+        transform: rotate(
+    180deg);
+    }
+}
+/* .fifth {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+} */
+.row4 {
+    margin: 30px;
+    
+}
+.c1 {
+    width: 90px;
+    height: 90px;
+    background-color:orangered;
+    border: 2px solid honeydew;
+    animation-name: sample4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    animation: sample 3s infinite linear;
+}
+@keyframes sample4{
+    0% {
+        transform: scale(1,1);
+    }
+    100% {
+        transform: scale(1,0.6);
+    }
+}
+.c2 {
+    width: 50px;
+    height: 90px;
+    background-color:midnightblue;
+    border: 2px solid honeydew;
+    animation-name: sample5;
+    animation-duration: 2s;
+    animation-timing-function: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes sample5{
+    0% {
+        transform: scale(1,1);
+    }
+    100% {
+        transform: scale(1.9,1);
+    }
+}
+.c3 {
+    width: 100px;
+    height: 90px;
+    background-color:rgb(10, 119, 6);
+    border: 2px solid honeydew;
+    animation-name: sample6;
+    animation-duration: 2s;
+    animation-timing-function: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes sample6{
+    0% {
+        transform: rotate(
+    90deg);
+    }
+    100% {
+        transform: rotate(
+    180deg);
+    }
+}
+
+
+.belowlink {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 19px;
+    text-decoration: underline;
+    
+   
+}
+.belowlink a {
+    color: rgb(27, 37, 185);
+}
+
+
+

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/77d5cc75bf.js" crossorigin="anonymous"></script>
+    <style>
+           
+        .container{
+        
+            position: sticky;
+            width: 1230px;
+            height: 800px;
+            border: 2px solid lightgray;
+            padding: 50px;
+            margin: 80px;
+            background-color: white;  
+            filter: blur(8px);
+        }
+        .head{
+            font-size: 60px;
+            color: black;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .icon{
+            color: gray;
+            font-size: 20px;
+        }
+        .box{
+            position: absolute;
+            border: 2px solid rgb(168, 101, 101);
+            border-radius: 10px;
+            display: inline-block;
+            height: 440px;
+            width: 440px;
+            /* background-color: lightgray; */
+            margin-left:390px ;
+            margin-top: 150px;
+            box-shadow:5px 5px 5px 5px lightgray;
+            
+        }
+        .heading{
+            font-size: 35px;
+            color: rgb(196, 32, 32);
+            font-family: arial;
+            text-align: center;
+        }
+        .text1{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: rgb(196, 32, 32);
+        }
+        .pending{
+            font-size: 26px;
+            font-family: 'Arial';
+            color:gray;
+            margin-left:100px;
+            
+        }
+        .icon{
+            position: absolute;
+            top:160px;
+            right:43%;
+            /* justify-content: center;
+            align-items: center; */
+        }
+        .back{
+            color: gray;
+            font:1.2em "Fira Sans", sans-serif;
+            font-size: 45px;
+            /* font-family: helvetica; */
+            
+        }
+        .icon2{ 
+            position: absolute;
+            display: flex;
+            top: 380px;
+            right:10px;
+            
+        }
+        .fas{
+            color: indianred;
+            size: 10px;
+        }
+
+        .additembox{
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform:translate(-50%,-50%);
+            z-index:5;
+            padding:2px 0;
+            justify-content: center;
+            /* justify-content: center;
+            align-items: center;
+            text-align: center; */
+            margin: 0;
+            padding: 0;
+        }
+        .additem{
+            border: 1px solid tomato;
+            background: white;                     
+            border-radius: 10px;
+            display:flex;
+            height: 200px;
+            width: 450px;
+            box-shadow:5px 5px 5px 5px lightgray;  
+            padding: 0;
+            margin: 0;    
+            
+        }
+        .form-title{
+            color: tomato;
+            margin-top:20px;
+            margin-left: 150px;
+            font-family: Arial, Helvetica, sans-serif;            
+            font-size: 25px; 
+            
+            
+            
+        }
+        .additem input{
+            position: absolute;
+            
+            width: 350px;
+            height: 40px;
+            /* align-items: center;
+            justify-content: center;
+            display: flex; */
+            margin-left: -100px;
+            margin-top: -30px;
+            border: 2px solid tomato;
+            border-radius: 5px;
+            box-shadow:2px 2px 2px 2px lightgray;
+        }
+        .add{
+            position:absolute;
+            width: 90px;
+            height: 40px;
+            background-color: tomato;          
+            border-radius: 20px;
+            bottom: 10% ;
+            left:40%;
+        }
+        .addtext{
+            color: white;           
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin-top: 6px;
+            font-size: 24px;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="head">
+            <hr style="position: absolute;
+            left: 280px;
+            top:60px;
+            color: gray;
+            width:180px;">
+            <b>Trip to Paris</b>
+            <hr style="position: absolute;
+            right: 280px;
+            top:60px;
+            color: gray;
+            width:180px;">     
+        </div>
+        <div class="icon">
+            <div class="fas fa-arrow-circle-left fa-3x">
+                <span class="back">Back</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="heading"><br>
+                Trip to Paris
+                <hr style="position: absolute;
+                left:130px;
+                top:80px;
+                color:gray;
+                width: 310px;">
+            </div>    
+            <div class="text1"><br><br>
+                <strike> Completed Task</strike>
+            </div>    
+            <br>
+            <div class="pending">
+                <input type="checkbox" name="pending" id="Task"/> Pending Task
+            </div>        
+            <div class="icon2">  
+                <i class="fas fa-plus-circle fa-3x"></i>
+            </div> 
+        </div>
+        
+    </div>
+
+    <div class="additembox">
+        <div class="additem">
+            <span class="form-title">Add New item</p>      
+             
+            <label for="items"></label><br>
+            <input type="text" name="items" id="items">
+            
+            <div class="add"> 
+                <span class="addtext">ADD</span>
+            </div>
+
+        </div>
+        
+    </div>
+
+    
+
+    
+
+</body>
+</html>

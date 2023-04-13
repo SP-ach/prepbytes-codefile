@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIGITAL CLOCK</title>
+    <link rel="shortcut icon" href="clock_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="java.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=IBM+Plex+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="day">
+        <img src="./clock_logo/clock_logo.png" alt="clock">
+    </div>
+    <div class="comment1">
+        The message and Image will change according to the time
+    </div>
+    <div id="box">
+        <div class="b1"></div>
+        <div class="b2"></div>
+        <div class="time"><p>
+            <p class="a">TIME</p>
+            <p id="hr">10</p>
+            <p class="b">hrs</p>
+            <img src="./timeline.jpg" alt="" class="pic">
+            <p class="c">:</p>
+            <p id="min">30</p>
+            <p class="d">mins</p>
+            <img src="./timeline.jpg" alt="" class="pic1">
+            <p class="e">:</p>
+            <p id="secs">10</p>
+            <p class="f">secs</p>
+            <img src="./timeline.jpg" alt="" class="pic2">
+            <p id="am">am</p>
+            <img src="./AM_svg.jpg" alt="" class="pic3">
+        </p></div>
+    </div>
+    <div class="pack ampm" id="ampm"></div>
+        <div class="table">
+            <div class="com">
+            <img src="./wake_up.svg" alt="wake">
+            <p>SET WAKE UP TIME</p>
+            <select name="time" id="time">
+                <option value="time">10AM - 11AM</option>
+                <option value="time">12AM - 1PM</option>
+                <option value="time">4PM - 5PM</option>
+                <option value="time">10PM - 11AM</option>
+                <option value="time">2AM - 11AM</option>
+            </select>
+            </div>
+            <div class="com">
+            <img src="./lunch_time.jpg" alt="lunch">
+            <p>SET LUNCH TIME</p>
+            <select name="time" id="time">
+                <option value="time">12AM - 1PM</option>
+                <option value="time">10AM - 11AM</option>
+                <option value="time">4PM - 5PM</option>
+                <option value="time">10PM - 11AM</option>
+            </select>
+            </div>
+            <div class="com">
+                <img src="./nap_time.svg" alt="nap">
+                <p>SET NAP TIME</p>
+                <select name="time" id="time">
+                    <option value="time">4PM - 5PM</option>
+                    <option value="time">10PM - 11AM</option>
+                    <option value="time">12AM - 1PM</option>
+                    <option value="time">10AM - 11AM</option>
+                </select>
+                </div>
+            <div class="com">
+                <img src="./repeat.jpg.png" alt="night" style="height: 40px; margin-top: 10px;">
+                <p>SET NIGHT TIME</p>
+                <select name="time" id="time">
+                    <option value="time">10PM - 11AM</option>
+                    <option value="time">4PM - 5PM</option>
+                    <option value="time">10AM - 11AM</option>
+                    <option value="time">12AM - 1PM</option>
+                </select>
+                </div>
+        </div>
+       <div class="text" id="greeting"><h1>GOOD MORNING!! WAKE UP !!</h1></div>
+            <div class="alarm_box">
+                <button class="alarm" id="button">SET ALARM</button>
+            </div>
+            <div class="schedule_box">
+                <div class="schedule"></div>
+                <div class="schedule_cont">Wake up time:<span class="timing"></span><br>
+                Lunch Time:<span class="timing"></span><br>Nap Time:<span class="timing"></span><br>Night Time:<span class="timing"></span>
+            </div>
+            </div>
+            <div class="comment2">Time will be updated here after clicking on "Set alarm</div>
+            <div class="breakfast_box">
+                <div class="breakfast" id="message">GRAB SOME HEALTHY BREAKFAST!!!</div>
+            </div>
+        <div class="img" id="img2">
+            <img src="./Component 30 – 1 (1).svg" alt="img">
+        </div>
+        <p class="note">Note: Go to Artboard 3(Assets) to see all the assets used in this project</p>
+<script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/77d5cc75bf.js" crossorigin="anonymous"></script>
+    <style>
+        .container{
+        
+            position: fixed;
+            width: 1230px;
+            height: 500px;
+            border: 2px solid lightgray;
+            padding: 50px;
+            margin: 80px;
+            background-color: white;
+            
+            
+        }
+        /* .box{
+            position: relative;
+            border: 2px solid red;
+            border-radius: 20px;
+            display: inline-block;
+            height: 300px;
+            width: 100px;
+            
+        } */
+        .Tasks{
+            position: relative;
+            margin-top: -10px;            
+            font-size: 60px;
+            font-family: Arial, Helvetica, sans-serif;
+            left: 20%;
+            
+        }
+        
+        .box1{
+            position: absolute;
+            border: 2px solid rgb(168, 101, 101);
+            border-radius: 10px;
+            display: inline-block;
+            height: 330px;
+            width: 210px;
+            /* background-color: lightgray; */
+            left: 300px;
+            box-shadow:5px 5px 5px 5px lightgray;
+            
+
+        }
+        .box2{
+            position: absolute;
+            border: 2px solid rgb(168, 101, 101);
+            border-radius: 10px;
+            display: inline-block;
+            height: 330px;
+            width: 210px;
+            /* background-color: lightgray; */
+            left: 575px;  
+            box-shadow:5px 5px 5px 5px lightgray;          
+            
+        }
+        .box3{
+            position: absolute;
+            border: 2px solid rgb(168, 101, 101);
+            border-radius: 10px;
+            display: inline-block;
+            height: 330px;
+            width: 210px;
+            /* background-color: lightgray; */
+            left: 850px;
+            box-shadow:5px 5px 5px 5px lightgray;
+            
+        }
+        .content{
+            font-size: 25px;
+            font-family: 'Arial Narrow';
+            
+            color: maroon;
+            text-align: center;
+            margin-top: 20px; ;
+            text-shadow: 2px 2px 5px lightcoral;
+        }
+        .content1{
+            font-size: 22px;
+            font-family: 'Arial';
+            color:indianred;
+            margin-left: 40px;
+        }
+        .pending{
+            font-size: 23px;
+            font-family: 'Arial';
+            color:gray;
+            
+        }
+        .fa-plus-circle{
+            
+            color: rgb(199, 81, 81);
+                       
+        }
+        /* .Add{
+            font-size: 40px;                      
+            color: gray;
+            font: 0.7 em "Fira Sans", sans-serif;
+        } */
+        #link1{
+            color: maroon;
+            text-decoration: none;
+        }
+        .lists{
+            font-weight: 10;
+            /* font: 1.0 em "Fira Sans", sans-serif;      */
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Tasks"><b>Tasks </b>
+            <span class="lists">Lists</span>   &emsp; &emsp; 
+            <a href="assign-a3.html"id="link2"><i class="fas fa-plus-circle fs-1x"></i></a>
+            <span style="font-size: 40px; color: gray;">Add List</span>    
+        </div>                       
+        <br>
+        <br>
+        <div class="box1">
+            <div class="content">               
+                    <a href="assign-a1.html"id="link1">Trip to Paris</a>                
+                <hr>
+            </div>
+            <br>
+            <div class="content1">
+                <strike>Completed Task</strike>
+            </div>
+            <br>
+            <div class="pending">
+                <input type="checkbox" name="pending" id="Task"/> Pending Task
+            </div>
+        </div>
+        <div class="box2">
+            <div class="content">
+                <div>My Todo List</div>
+                <hr>
+            </div>
+            <br>
+            <div class="content1">
+                <div><strike>Completed Task</strike></div>
+            </div>
+            <br>
+            <div class="pending">
+                <input type="checkbox" name="pending" id="Task"/> Pending Task
+            </div>
+        </div>
+        <div class="box3">
+            <div class="content">
+                <div>My Todo List</div>
+                <hr>
+            </div>
+            <br>
+            <div class="content1">
+                <div><strike>Completed Task</strike></div>
+            </div>
+            <br>
+            <div class="pending">
+                <input type="checkbox" name="pending" id="Task"/> Pending Task
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

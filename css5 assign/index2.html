@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            background-color: yellow;
+        }
+        .all{
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+        }
+        .box1{
+            margin: 20px;
+        }
+       
+        .one{
+             width:100px;
+             height:100px;
+             background-color:rgb(23, 190, 23);
+             transition: 1s;
+        }
+        .one:hover{
+            width:300px;
+        }
+       
+        .two{
+            width:100px;
+             height:100px;
+             background-color:rgb(23, 190, 23);
+             transition:  2s;
+
+        }
+        .two:hover{
+            height:300px;
+            width:300px;
+
+        }
+        .three{
+            width:100px;
+             height:100px;
+             background-color:rgb(23, 190, 23);
+             transition: 2s;
+             
+        }
+        .three:hover{
+           
+            width:350px;
+            transition-timing-function: linear;
+        }
+        .four{
+            width:100px;
+             height:100px;
+             background-color:rgb(23, 190, 23);
+             transition: 2s;
+        }
+        .four:hover{
+           
+            width:400px;
+            transition-timing-function: ease;
+        }
+        .five{
+            width:100px;
+             height:100px;
+             background-color:rgb(23, 190, 23);
+             transition: 2s;
+        }
+        .five:hover{
+           
+            width:450px;
+            transition-timing-function: ease-in;
+        }
+        .six{
+            width:100px;
+             height:100px;
+             background-color:rgb(23, 190, 23);
+             transition: 2s;
+        }
+        .six:hover{
+           
+            width:500px;
+            transition-timing-function: ease-out;
+        }
+        .seven{
+            width:100px;
+             height:100px;
+             background-color:rgb(23, 190, 23);
+             transition: 2s;
+        }
+        .seven:hover{
+           
+            width:550px;
+            transition-timing-function: ease-in-out;
+        }
+        .firstt{
+            
+            text-align:center;
+            color:black;
+           
+            font-weight: bold;
+            font-size:22px;
+        
+        }
+        .btn{
+            position: relative;
+            text-align: center;
+            font-size: 20px;
+            color: navy; 
+        }      
+    </style>
+</head>
+<body>
+    <div class="firstt">Try to replicate this</div>
+
+    <div class="all">
+        <ol>
+          <li><div class="box1 one"></div></li>
+          <li><div class="box1 two"></div></li>
+          <li><div class="box1 three"></div></li>
+          <li><div class="box1 four"></div></li>
+          <li><div class="box1 five"></div></li>
+          <li><div class="box1 six"></div></li>
+          <li><div class="box1 seven"></div></li>
+        </ol>
+      
+    
+        <div class="btn">
+            <h2><a href="index.html">Back</a></h2>
+        
+            <h2><a href="index3.html">Next</a></h2>
+        </div>
+
+    </div>
+
+</body>
+</html>

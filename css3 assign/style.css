@@ -1,0 +1,141 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: grey;
+        }
+        .first-box {
+            border: 8px solid red;
+            color: maroon;
+            background-color: white;
+            text-align: center;
+            width: 33%;
+            margin: auto;
+            border-radius: 20px;
+            box-shadow: 8px 8px 0px rgb(119, 4, 119);
+            padding: 20px 5px;
+            text-shadow: 2px 2px 3px rgb(119, 4, 119);
+            font-style: italic;
+            line-height: 45px;
+        }
+        .box{
+            border: 8px solid green;
+            height: 650px;
+        }
+        .second-box {
+            border: 8px solid red;
+            width: 250px;
+            height: 250px;
+            border-radius: 20px;
+            text-align: center;
+            background-color: white;
+            box-shadow: 8px 8px 0px rgb(119, 4, 119);
+            text-shadow: 2px 2px 3px rgb(119, 4, 119);
+            line-height: 28px;
+            padding: 10px ;
+            color: black;
+            position: relative;
+
+        }
+        
+        
+        .sub-box-1 {
+            position: relative;
+            /* font-size: 32px; */
+            /* color: black; */
+            /* text-shadow: 2px 2px 3px rgb(119, 4, 119); */
+            font-weight: bolder;
+            line-height: 40px;
+        }
+        .sub-box-1-2 {
+            position: relative;    
+            /* display: grid; */
+            place-items: center;
+            
+        }
+        .sub-box-2-1 {
+            position: relative;
+            /* font-size: 32px; */
+            /* color: black; */
+            /* text-shadow: 2px 2px 3px rgb(119, 4, 119); */
+            text-align: left;
+            font-weight: bolder;
+            padding:10px 0px 0px 0px ;
+        }
+        .sub-box-2-2 {
+            position: relative;
+            float: right;
+            
+            /* text-shadow: 2px 2px 3px rgb(119, 4, 119); */
+        }
+        .subHead{
+            font-size: 25px;
+            color: black;
+            text-shadow: 2px 2px 3px rgb(119, 4, 119);
+            font-weight: bolder;
+        }
+        .offer-box {
+            border: 8px solid red;
+            position: fixed;
+            left: 30%;
+            color: maroon;
+            border-radius: 20px;
+            display: flex;  /*for different text in same row*/
+            justify-content: space-between; /*space bet. different texts*/
+            padding: 10px 30px;
+            width: 35%;
+            background-color: rgb(146, 230, 21);
+            box-shadow: 8px 8px 0px rgb(119, 4, 119);
+        }
+        /* #btn {
+            border-radius: 20px;
+            background-color: brown;
+            padding: 5px 5px;
+        } */
+        .thirdbox {
+            border: 6px solid purple;
+            background-color: green;
+            width: 50%;
+            margin: auto;  /* for center the box*/
+            margin-top: 20px;
+        }
+        .thirdbox-heading {
+            font-size: 30px;
+            font-weight: bolder;
+            text-align: center;
+            padding: 20px 0px;
+        }
+        .thirdbox-upper {
+            border: 3px solid green;
+            display: flex;
+            justify-content: space-between;
+        }
+        .thirdbox-upper1 {
+            margin-right: 10px;
+            /* padding: 5px; */
+            border: 2px solid grey;
+            text-align: center;
+            background-color: rgb(235, 227, 116);
+            line-height: 27px;
+            font-style: italic;
+            font-weight:bold;
+            
+        }
+        .thirdbox-upper2 {
+            border: 2px solid grey;
+            text-align: center;
+            background-color: rgb(235, 227, 116);
+            font-style: italic;
+            font-weight:bold;
+            line-height: 27px;
+        }
+        .thirdbox-lower {
+            border: 6px solid green;
+            background-color: rgb(235, 227, 116);
+            text-align: center;
+            font-style: italic;
+            font-weight:bold;
+            line-height: 33px;
+        }
